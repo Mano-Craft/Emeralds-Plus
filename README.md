@@ -1,4 +1,4 @@
-> # The Emeralds Plus Mod
+ # The Emeralds Plus Mod
 ### The Emeralds Plus Mod adds lots of new uses for emeralds.It adds the new Emerald Armor, Emerald Tools and the Emerald Upgrade to get the tools and armor upgrade from diamond armor
 
  ##  Emerald Upgrade
