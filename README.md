@@ -1,5 +1,5 @@
   # The Emeralds Plus Mod
-The Emeralds Plus Mod adds lots of new uses for emeralds.It adds the new Emerald Armor, Emerald Tools and the Emerald Upgrade (to get the tools and armor upgraded from diamond armor and tools).The Armor and tools strenght is betwenn diamond and netherite.New Entchantments (which are only for the Emerald Tools and Armor)will be added soon.(The Source Code will be added soon)
+The Emeralds Plus Mod adds lots of new uses for emeralds.It adds the new Emerald Armor, Emerald Tools and the Emerald Upgrade (to get the tools and armor upgraded from diamond armor and tools).The Armor and tools strenght is betwenn diamond and netherite.New Entchantments (which are only for the Emerald Tools and Armor)will be added soon.(The Source Code will be added soon also)
 
  ##  Emerald Upgrade
 
