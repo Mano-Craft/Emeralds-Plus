@@ -96,8 +96,3 @@ You can Dupe The Emerald Upgrade like this:
 This project is licensed under the **Custom License by Mano Craft**.
 
 See the LICENSE file for details.
-
-<details>
-  <summary>LICENSE</summary>
-  https://github.com/Mano-Craft/Emeralds-plus/blob/main/LICENSE
-</details>
