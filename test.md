@@ -20,6 +20,14 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 ---
 
+## Languages
+
+| Version | English | Portuguese | Russian | Frensh | German |
+|------|-------------|------|------|-------------|------|
+| 0.9.1   |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| 0.9.0   |  ✅  | ❌  | ❌ | ❌ | ❌ |
+---
+
 # 🔨 Emerald Upgrade
 
 The **Emerald Upgrade** allows you to upgrade **Diamond Tools** and **Diamond Armor** into their Emerald variants.
@@ -154,8 +162,13 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 # 🚀 More Coming Soon
 
 Planned features include:
+<details>
+<summary><b>🚀 Next Features</b></summary>
 
 - ✨ Exclusive Emerald Enchantments
 - 🌍 Support for more languages
 - 🛡️ A brand new Emerald Shield
+
+</details>
+
   
