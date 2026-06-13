@@ -56,7 +56,7 @@ A stronger alternative to the Diamond Sword while remaining slightly weaker than
 - 🎲 3% chance
 
 <details>
-<summary><b>Crafting Recipe</b></summary>
+<summary><b📖 >Crafting Recipe</b></summary>
 
 ![Emerald Sword Crafting](https://cdn.modrinth.com/data/cached_images/e5195e6bf78096101476463b038c242afeec73ba.png)
 
@@ -73,7 +73,7 @@ A powerful axe balanced between Diamond and Netherite.
 - 🎲 3% chance
 
 <details>
-<summary><b>Crafting Recipe</b></summary>
+<summary><b>📖 Crafting Recipe</b></summary>
 
 ![Emerald Axe Crafting](https://cdn.modrinth.com/data/cached_images/1fa006337e2199f537648be1be878476d15e37a2.png)
 
@@ -90,7 +90,7 @@ Mine faster with an upgraded pickaxe stronger than Diamond.
 - 🎲 3% chance
 
 <details>
-<summary><b>Crafting Recipe</b></summary>
+<summary><b>📖 Crafting Recipe</b></summary>
 
 ![Emerald Pickaxe Crafting](https://cdn.modrinth.com/data/cached_images/cca38e87d57787c799bf8140b8086929a23ad0c2.png)
 
@@ -103,7 +103,7 @@ Mine faster with an upgraded pickaxe stronger than Diamond.
 The Emerald Shovel offers improved durability and mining speed.
 
 <details>
-<summary><b>Crafting Recipe</b></summary>
+<summary><b>📖 Crafting Recipe</b></summary>
 
 ![Emerald Shovel Crafting](https://cdn.modrinth.com/data/cached_images/a4279e83dc2fa8163caeda97f42297893420824d.png)
 
@@ -116,7 +116,7 @@ The Emerald Shovel offers improved durability and mining speed.
 A durable farming tool made from emeralds.
 
 <details>
-<summary><b>Crafting Recipe</b></summary>
+<summary><b>📖 Crafting Recipe</b></summary>
 
 ![Emerald Hoe Crafting](https://cdn.modrinth.com/data/cached_images/8fc1d76e0efff0f40c176b18b2140f05c3825b52.png)
 
@@ -129,7 +129,7 @@ A durable farming tool made from emeralds.
 The complete Emerald Armor set provides protection between Diamond and Netherite.
 
 <details>
-<summary><b>Armor Crafting Recipes</b></summary>
+<summary><b>📖 Armor Crafting Recipes</b></summary>
 
 ### Helmet
 
