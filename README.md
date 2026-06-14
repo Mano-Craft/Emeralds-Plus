@@ -32,6 +32,7 @@ If You want to build the mod and change it for yourselfes use. You have to chang
 |------|-------------|------|------|-------------|------|
 | 0.9.1   |  ✅  | ✅ | ✅ | ✅ | ✅ |
 | 0.9.0   |  ✅  | ❌  | ❌ | ❌ | ❌ |
+
 ---
 
 # 🔨 Emerald Upgrade
