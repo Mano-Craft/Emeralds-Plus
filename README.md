@@ -166,15 +166,28 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 ---
 
-# 🚀 More Coming Soon
+# 🚀 Changelog and Roadmap
 
-Planned features include:
 <details>
-<summary><b>🚀 Next Features</b></summary>
+<summary><b>🚀 Changelog and Roadmap</b></summary>
 
-- ✨ Exclusive Emerald Enchantments
-- 🌍 Support for more languages
-- 🛡️ A brand new Emerald Shield
+| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 |
+|------|-------------|------|------|-------------|------|
+| Emerald Upgrade |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Armor |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Sword |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Axe |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Pickaxe |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shovel |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| Emerald Hoe |  ✅  | ✅ | ✅ | ✅ | ✅ |
+| English Support | ✅ | ✅ | ✅ | ✅ | ✅ |
+| German Support | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Frensh Support | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 </details>
 
