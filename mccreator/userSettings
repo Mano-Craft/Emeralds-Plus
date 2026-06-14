@@ -1,0 +1,29 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Emeralds plus]",
+      "[, Emeralds plus, Resources (Gradle)]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus]"
+    ]
+  },
+  "leftDockState": {
+    "expandedDock": "project_browser",
+    "dockSizes": {
+      "project_browser": 280
+    }
+  },
+  "rightDockState": {
+    "dockSizes": {}
+  },
+  "bottomDockState": {
+    "dockSizes": {
+      "console": 663,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}
