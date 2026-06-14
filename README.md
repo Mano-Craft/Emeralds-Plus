@@ -12,7 +12,7 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 #  🔧 Building the Mod on his own
 
-If You want to build the mod and change it for yourselfes use you have to change the mcreator
+If You want to build the mod and change it for yourselfes use. You have to change the `mcreator` folder to the `.mcreator` folder .And it **Only works with Mcreator 2026.2 and the Fabric 26.1.2 Plugin**
 
 ---
 
