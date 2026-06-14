@@ -10,6 +10,12 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 ---
 
+#  🔧 Building the Mod on his own
+
+If You want to build the mod and change it for yourselfes use you have to change the mcreator
+
+---
+
 # ✨ Features
 
 - 💚 Emerald Armor Set
