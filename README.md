@@ -168,8 +168,6 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 # 🚀 Changelog and Roadmap
 
-<details>
-<summary><b>🚀 Changelog and Roadmap</b></summary>
 
 | Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 |
 |------|-------------|------|------|-------------|------|
@@ -189,7 +187,7 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 | Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-</details>
+
 
   
 
