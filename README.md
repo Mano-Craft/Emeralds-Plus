@@ -169,23 +169,24 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 # 🚀 Changelog and Roadmap
 
 
-| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 |
-|------|-------------|------|------|-------------|------|
-| Emerald Upgrade |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Armor |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Sword |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Axe |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Pickaxe |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shovel |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| Emerald Hoe |  ✅  | ✅ | ✅ | ✅ | ✅ |
-| English Support | ✅ | ✅ | ✅ | ✅ | ✅ |
-| German Support | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Frensh Support | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 |
+|-----------------|-|-|-|-|-|-|
+| Emerald Upgrade |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Armor |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Sword |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Axe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Pickaxe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shovel |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Hoe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Frensh Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Emerald Speer | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 
 
