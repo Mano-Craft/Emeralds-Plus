@@ -27,7 +27,7 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 ---
 
-## Languages
+## 🗺️ Languages
 
 | Version | English | Portuguese | Russian | Frensh | German |
 |------|-------------|------|------|-------------|------|
