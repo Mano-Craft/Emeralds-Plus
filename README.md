@@ -187,7 +187,7 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 | Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
 | Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Emerald Speer | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Emerald Spear | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 
 
