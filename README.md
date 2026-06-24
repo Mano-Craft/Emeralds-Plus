@@ -197,6 +197,5 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 This project is licensed under the **Custom License by Mano Craft**.
 
-# THIS IS A TEST
 
 See the LICENSE file for details.
