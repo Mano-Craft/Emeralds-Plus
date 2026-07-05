@@ -1,0 +1,38 @@
+{
+  "_fv": 86,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "emearls_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Emerald Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:Emeraldsplus"
+    ],
+    "efficiency": 8.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 9.5,
+    "usageCount": 1725,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.EMERALD"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

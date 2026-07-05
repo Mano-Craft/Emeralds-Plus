@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "emeraldsplus:emerals_upgrade",
+  "base": "minecraft:diamond_pickaxe",
+  "addition": "minecraft:emerald_block",
+  "result": {
+    "id": "emeraldsplus:emerald_pickaxe"
+  }
+}

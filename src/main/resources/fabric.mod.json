@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "emeraldsplus",
+  "version": "0.9.2",
+  "name": "Emeralds plus",
+  "description": "This mod adds tons of new features for emeralds.",
+  "authors": [
+    "Mano Craft"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/emeraldsplus",
+    "sources": "https://github.com/Mano-Craft/Emeralds-plus"
+  },
+  "license": "Custom license by Mano Craft",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "LICENSE": "https://github.com/Mano-Craft/Emeralds-plus/blob/main/LICENSE"
+      }
+    }
+  },
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.mcreator.emeraldsplus.EmeraldsplusMod"
+    ],
+    "client": [
+      "de.mcreator.emeraldsplus.EmeraldsplusModClient"
+    ]
+  },
+  "mixins": [
+    "emeraldsplus.mixins.json"
+  ],
+  "accessWidener": "META-INF/emeraldsplus.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

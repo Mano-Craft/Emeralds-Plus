@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "emeraldsplus:emerals_upgrade",
+  "base": "minecraft:diamond_helmet",
+  "addition": "minecraft:emerald_block",
+  "result": {
+    "id": "emeraldsplus:emeraldarmor_helmet"
+  }
+}
