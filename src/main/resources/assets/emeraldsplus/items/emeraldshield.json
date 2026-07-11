@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "emeraldsplus:item/emeraldshield_gui"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "emeraldsplus:item/emeraldshield"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "emeraldsplus:item/emeraldshield_blocking"
+      },
+      "property": "minecraft:using_item"
+    }
+  }
+}

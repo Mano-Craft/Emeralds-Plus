@@ -1,0 +1,1423 @@
+{
+  "mod_elements": [
+    {
+      "name": "Emeralds",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldsItem.java",
+          "src/main/resources/assets/emeraldsplus/models/item/emerald_pickaxe.json",
+          "src/main/resources/assets/emeraldsplus/items/emerald_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeralsUpgrade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeralsUpgradeItem.java",
+          "src/main/resources/assets/emeraldsplus/items/emerald_upgrade.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emerald_upgrade.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldsword",
+      "metadata": {
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldswordItem.java",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldsword.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldsword.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldswordcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldswordcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldswordcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldsplus/items/emeraldaxe.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldaxe.json",
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxecr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxecr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldaxecr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeralsupgradecr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeralsupgradecr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeralsupgradecr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldupgrade",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldupgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/village/village_weaponsmith.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldshovel.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldshovel.json",
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovelcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovelcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldshovelcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldsplus/items/emeraldhoe.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldhoe.json",
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldhoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoecr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoecr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldhoecr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor",
+      "metadata": {
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldarmorItem.java",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldarmor_leggings.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldarmor_chestplate.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldarmor_boots.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldarmor_helmet.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldarmor_boots.json",
+          "src/main/java/de/mcreator/emeraldsplus/client/renderer/item/EmeraldarmorArmor.java",
+          "src/main/resources/assets/emeraldsplus/equipment/emeraldarmor.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldarmor_chestplate.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldarmor_leggings.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldarmor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmorcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmorcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldarmorcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmorcr2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmorcr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldarmorcr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmorcr3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmorcr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldarmorcr_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmorcr4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmorcr_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeraldarmorcr_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeralsupgradecr2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeralsupgradecr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emeralsupgradecr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShieldCR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shield_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/recipe/emerald_shield_cr.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldshield.json",
+          "src/main/resources/assets/emeraldsplus/items/emeraldshield.json",
+          "src/main/java/de/mcreator/emeraldsplus/item/EmeraldshieldItem.java",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldshield_gui.json",
+          "src/main/resources/assets/emeraldsplus/models/item/emeraldshield_blocking.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldshieldRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshield_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/procedures/EmeraldshieldRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldsPlus",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeralds_plus",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:emeraldsplus:emeralds_repair_items": [],
+    "ITEMS:emeraldsplus:emeraldaxe_repair_items": [
+      "~Emeraldaxe@Items.EMERALD"
+    ],
+    "ITEMS:emeraldsplus:emeraldhoe_repair_items": [
+      "~Emeraldhoe@Items.EMERALD"
+    ],
+    "ITEMS:emeraldsplus:emeraldarmor_repair_items": [
+      "~Emeraldarmor@Items.EMERALD"
+    ],
+    "ITEMS:emeraldsplus:emerald_pickaxe_repair_items": [
+      "~Emeralds@Items.EMERALD"
+    ],
+    "ITEMS:emeraldsplus:emeraldsword_repair_items": [
+      "~Emeraldsword@Items.EMERALD"
+    ],
+    "ITEMS:emeraldsplus:emeraldshovel_repair_items": [
+      "~Emeraldshovel@Items.EMERALD"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Emeraldsword@CUSTOM:Emeraldsword"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~Emeraldaxe@CUSTOM:Emeraldaxe"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Emeralds@CUSTOM:Emeralds"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~Emeraldshovel@CUSTOM:Emeraldshovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~Emeraldhoe@CUSTOM:Emeraldhoe"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.emeraldsplus.emeraldsword": "Emerald Sword",
+      "item.emeraldsplus.emeraldaxe": "Emerald Axe",
+      "item.emeraldsplus.emeraldshovel": "Emerald Shovel",
+      "item.emeraldsplus.emeraldhoe": "Emerald Hoe",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Emerald Chestplate",
+      "item.emeraldsplus.emeraldarmor_helmet": "Emerald Helmet",
+      "item.emeraldsplus.emeraldarmor_boots": "Emerald Boots",
+      "item.emeraldsplus.emeraldarmor_leggings": "Emerald Leggings",
+      "item.emeraldsplus.emerald_pickaxe": "Emerald Pickaxe",
+      "item.emeraldsplus.emerald_upgrade": "Emerald Upgrade",
+      "item.emeraldsplus.emeraldshield": "Emerald Shield",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_fr": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_de": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_br": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_ru": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_at": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_be": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_it": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_ch": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_li": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "de_lu": {
+      "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
+      "item.emeraldsplus.emeraldaxe": "Smaragd Axt",
+      "item.emeraldsplus.emeraldshovel": "Smaragd Schaufel",
+      "item.emeraldsplus.emeraldhoe": "Smaragd Hacke",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Smaragd Brustplatte",
+      "item.emeraldsplus.emeraldarmor_helmet": "Smaragd Helm",
+      "item.emeraldsplus.emeraldarmor_boots": "Smaragd Schuhe",
+      "item.emeraldsplus.emeraldarmor_leggings": "Smaragd Hose",
+      "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
+      "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
+      "item.emeraldsplus.emeraldshield": "Smaragd Schild",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_be": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_bf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_bi": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_bj": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_lu": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_cm": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ga": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_td": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ch": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_km": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_pm": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_sc": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_cd": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mu": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ca": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_cg": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_vu": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mc": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_pf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_tg": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_sn": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_gp": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_cf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_rw": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mg": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ne": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ma": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mr": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_gn": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_sy": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_dz": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_nc": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_bl": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ml": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_tn": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_gf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ht": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_re": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_gq": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_ci": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_dj": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_yt": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_mq": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "fr_wf": {
+      "item.emeraldsplus.emeraldsword": "Épée en émeraude",
+      "item.emeraldsplus.emeraldaxe": "Hache en émeraude",
+      "item.emeraldsplus.emeraldshovel": "Pelle en émeraude",
+      "item.emeraldsplus.emeraldhoe": "Houe en émeraude",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Plastron en émeraude",
+      "item.emeraldsplus.emeraldarmor_helmet": "Casque en émeraude",
+      "item.emeraldsplus.emeraldarmor_boots": "Bottes en émeraude",
+      "item.emeraldsplus.emeraldarmor_leggings": "Jambières en émeraude",
+      "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
+      "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
+      "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_ao": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_cv": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_lu": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_pt": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_mz": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_mo": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_st": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_ch": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_gw": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_tl": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "pt_gq": {
+      "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
+      "item.emeraldsplus.emeraldaxe": "Machado de Esmeralda",
+      "item.emeraldsplus.emeraldshovel": "Pá de Esmeralda",
+      "item.emeraldsplus.emeraldhoe": "Enxada de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Peitoral de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_helmet": "Capacete de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_boots": "Botas de Esmeralda",
+      "item.emeraldsplus.emeraldarmor_leggings": "Calças de Esmeralda",
+      "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
+      "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
+      "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_md": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_by": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_kz": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_ua": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    },
+    "ru_kg": {
+      "item.emeraldsplus.emeraldsword": "Изумрудный меч",
+      "item.emeraldsplus.emeraldaxe": "Изумрудный топор",
+      "item.emeraldsplus.emeraldshovel": "Изумрудная лопата",
+      "item.emeraldsplus.emeraldhoe": "Изумрудная мотыга",
+      "item.emeraldsplus.emeraldarmor_chestplate": "Изумрудный нагрудник",
+      "item.emeraldsplus.emeraldarmor_helmet": "Изумрудный шлем",
+      "item.emeraldsplus.emeraldarmor_boots": "Изумрудные ботинки",
+      "item.emeraldsplus.emeraldarmor_leggings": "Изумрудные поножи",
+      "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
+      "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
+      "item.emeraldsplus.emeraldshield": "Изумрудный щит",
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/de/mcreator/emeraldsplus/mixin/EquipmentLayerRendererMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/init/EmeraldsplusModArmorModels.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/PiglinAiMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/ServerPlayerMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/init/EmeraldsplusModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/LivingEntityMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/EmeraldsplusModClient.java",
+      "src/main/java/de/mcreator/emeraldsplus/event/BlockEvents.java",
+      "src/main/java/de/mcreator/emeraldsplus/init/EmeraldsplusModTabs.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/BlockItemMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/event/LivingEntityEvents.java",
+      "src/main/java/de/mcreator/emeraldsplus/event/PlayerEvents.java",
+      "src/main/resources/emeraldsplus.mixins.json",
+      "src/main/java/de/mcreator/emeraldsplus/event/MiscEvents.java",
+      "src/main/java/de/mcreator/emeraldsplus/EmeraldsplusMod.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/PlayerMixin.java",
+      "src/main/resources/META-INF/emeraldsplus.classtweaker",
+      "src/main/java/de/mcreator/emeraldsplus/event/ItemEvents.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/BoneMealItemMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/ExperienceOrbMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/ItemStackMixin.java",
+      "src/main/java/de/mcreator/emeraldsplus/mixin/CommandsMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "emeraldsplus",
+    "modName": "Emeralds plus",
+    "version": "1.0.0",
+    "description": "This mod adds tons of new features for emeralds.",
+    "author": "Mano Craft",
+    "websiteURL": "https://mano-craft.github.io/Mano-Craft-Wiki/projects/emeralds-plus/",
+    "license": "Custom license",
+    "serverSideOnly": false,
+    "modPicture": "emerald_upgrade",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "credits": "https://github.com/Mano-Craft/Emeralds-plus",
+    "modElementsPackage": "de.mcreator.emeraldsplus"
+  },
+  "mcreatorVersion": 202600222416
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 86,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.SHIELD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD"
+    ],
+    "recipeReturnStack": "CUSTOM:Emeraldshield",
+    "name": "emerald_shield_cr",
+    "namespace": "mod"
+  }
+}

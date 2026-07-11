@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "emeraldsplus:emerald_upgrade",
+  "base": "minecraft:diamond_sword",
+  "addition": "minecraft:emerald_block",
+  "result": {
+    "id": "emeraldsplus:emeraldsword"
+  }
+}

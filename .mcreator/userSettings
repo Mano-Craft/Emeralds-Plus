@@ -1,0 +1,53 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Emeralds plus]",
+      "[, Emeralds plus, Source (Gradle)]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client\\renderer]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client\\renderer, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\client\\renderer\\item]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\event]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\init]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\item]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\mixin]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\procedures]",
+      "[, Emeralds plus, Source (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\java\\de\\mcreator\\emeraldsplus\\world]",
+      "[, Emeralds plus, Resources (Gradle)]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\equipment]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\items]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\models]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\models, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\models\\item]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity\\equipment]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity\\equipment, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity\\equipment\\humanoid]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity\\equipment, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\entity\\equipment\\humanoid_leggings]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures, C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\assets\\emeraldsplus\\textures\\item]",
+      "[, Emeralds plus, Resources (Gradle), C:\\Users\\Win11 Pro\\MCreatorWorkspaces\\emeraldsplus\\src\\main\\resources\\META-INF]"
+    ]
+  },
+  "leftDockState": {
+    "expandedDock": "project_browser",
+    "dockSizes": {
+      "project_browser": 280
+    }
+  },
+  "rightDockState": {
+    "dockSizes": {}
+  },
+  "bottomDockState": {
+    "dockSizes": {
+      "console": 663,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

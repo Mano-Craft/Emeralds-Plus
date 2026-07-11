@@ -1,0 +1,21 @@
+{
+  "_fv": 86,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": "Items.DIAMOND_BOOTS",
+    "smithingInputAdditionStack": "Blocks.EMERALD_BLOCK",
+    "smithingInputTemplateStack": "CUSTOM:EmeralsUpgrade",
+    "smithingReturnStack": "CUSTOM:Emeraldarmor.boots",
+    "name": "emeraldarmorcr_4",
+    "namespace": "mod"
+  }
+}
