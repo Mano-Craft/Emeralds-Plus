@@ -31,8 +31,8 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 #  🔧 Building the Mod on his own
 
-- If You want to build the mod and change it for yourselfes use. You have to change the `mcreator` folder to the `.mcreator` folder .And it **Only works with Mcreator 2026.2 and the Fabric 26.1.2 Plugin**
-- If you only want to change the textures just download the default texture pack ( is also shown in the download ) and change there textures.I recomment to use the same mod version as the texture pack
+- If You want to build the mod and change it for yourselfes use.You have To download [The Source Code](https://github.com/Mano-Craft/Emeralds-plus) for the version you want to change.Then You have to open the project in mcreator.And it **Only works with Mcreator 2026.2 and the Fabric 26.1.2 Plugin**
+- If you only want to change the textures just download the [default texture pack](https://modrinth.com/resourcepack/emeraldsplusdefaulttexturepack) and change there textures.I recomment to use the same mod version as the texture pack
 
 ---
 
