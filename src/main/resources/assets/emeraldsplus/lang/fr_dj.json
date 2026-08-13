@@ -11,6 +11,12 @@
   "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
   "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
   "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
-  "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
-  "enchantment.emeraldsplus.golem_protection": "Golem Protection"
+  "item_group.emeraldsplus.emeralds_plus_enchantments": "Enchantements Emeralds Plus",
+"enchantment.emeraldsplus.multi_break": "Minage multiple",
+"enchantment.emeraldsplus.golem_protection": "Protection des golems",
+"enchantment.emeraldsplus.power_shield": "Bouclier de plumes",
+"enchantment.emeraldsplus.village_protector": "Protecteur du village",
+"enchantment.emeraldsplus.fast_farm": "Agriculture rapide",
+"enchantment.emeraldsplus.village_protection": "Protection du village",
+"enchantment.emeraldsplus.luck": "Chance commerciale"
 }

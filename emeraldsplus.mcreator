@@ -4,7 +4,7 @@
       "name": "Emeralds",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "emerald_pickaxe",
       "metadata": {
         "files": [
@@ -70,7 +70,7 @@
       "name": "Emeraldaxe",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "emeraldaxe",
       "metadata": {
         "files": [
@@ -120,7 +120,7 @@
       "name": "Emeraldshovel",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "emeraldshovel",
       "metadata": {
         "files": [
@@ -146,7 +146,7 @@
       "name": "Emeraldhoe",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "emeraldhoe",
       "metadata": {
         "files": [
@@ -297,13 +297,142 @@
       }
     },
     {
-      "name": "EmeraldsPlus",
+      "name": "EmeraldsPlusEnchantments",
       "type": "tab",
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "emeralds_plus",
+      "locked_code": true,
+      "registry_name": "emeralds_plus_enchantments",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "MultiBreak",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "multi_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/multi_break.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemProtection",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golem_protection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/golem_protection.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerShield",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "power_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/power_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "VillageProtector",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_protector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/village_protector.json"
+        ]
+      }
+    },
+    {
+      "name": "FastFarm",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fast_farm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/fast_farm.json"
+        ]
+      }
+    },
+    {
+      "name": "VillageProtection",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_protection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/village_protection.json"
+        ]
+      }
+    },
+    {
+      "name": "Luck",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "luck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldsplus/enchantment/luck.json"
+        ]
+      }
+    },
+    {
+      "name": "Dummy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dummy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldsplus/models/item/dummy.json",
+          "src/main/resources/assets/emeraldsplus/items/dummy.json",
+          "src/main/java/de/mcreator/emeraldsplus/item/DummyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckJobSiteOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "luck_job_site_open",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/procedures/LuckJobSiteOpenProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Deletedummy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deletedummy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/de/mcreator/emeraldsplus/procedures/DeletedummyProcedure.java"
+        ]
       }
     }
   ],
@@ -329,20 +458,32 @@
     "ITEMS:emeraldsplus:emeraldshovel_repair_items": [
       "~Emeraldshovel@Items.EMERALD"
     ],
-    "ITEMS:minecraft:swords": [
-      "~Emeraldsword@CUSTOM:Emeraldsword"
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~FastFarm@CUSTOM:FastFarm",
+      "~Luck@CUSTOM:Luck",
+      "~VillageProtection@CUSTOM:VillageProtection",
+      "~VillageProtector@CUSTOM:VillageProtector",
+      "~PowerShield@CUSTOM:PowerShield",
+      "~GolemProtection@CUSTOM:GolemProtection",
+      "~MultiBreak@CUSTOM:MultiBreak"
     ],
-    "ITEMS:minecraft:axes": [
-      "~Emeraldaxe@CUSTOM:Emeraldaxe"
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~FastFarm@CUSTOM:FastFarm",
+      "~Luck@CUSTOM:Luck",
+      "~VillageProtection@CUSTOM:VillageProtection",
+      "~VillageProtector@CUSTOM:VillageProtector",
+      "~PowerShield@CUSTOM:PowerShield",
+      "~GolemProtection@CUSTOM:GolemProtection",
+      "~MultiBreak@CUSTOM:MultiBreak"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~Emeralds@CUSTOM:Emeralds"
-    ],
-    "ITEMS:minecraft:shovels": [
-      "~Emeraldshovel@CUSTOM:Emeraldshovel"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~Emeraldhoe@CUSTOM:Emeraldhoe"
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~FastFarm@CUSTOM:FastFarm",
+      "~Luck@CUSTOM:Luck",
+      "~VillageProtection@CUSTOM:VillageProtection",
+      "~VillageProtector@CUSTOM:VillageProtector",
+      "~PowerShield@CUSTOM:PowerShield",
+      "~GolemProtection@CUSTOM:GolemProtection",
+      "~MultiBreak@CUSTOM:MultiBreak"
     ],
     "ITEMS:minecraft:head_armor": [
       "~Emeraldarmor@CUSTOM:Emeraldarmor.helmet"
@@ -355,6 +496,21 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~Emeraldarmor@CUSTOM:Emeraldarmor.boots"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Emeralds@CUSTOM:Emeralds"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~Emeraldaxe@CUSTOM:Emeraldaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~Emeraldhoe@CUSTOM:Emeraldhoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~Emeraldshovel@CUSTOM:Emeraldshovel"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Emeraldsword@CUSTOM:Emeraldsword"
     ]
   },
   "tab_element_order": {},
@@ -371,7 +527,22 @@
       "item.emeraldsplus.emerald_pickaxe": "Emerald Pickaxe",
       "item.emeraldsplus.emerald_upgrade": "Emerald Upgrade",
       "item.emeraldsplus.emeraldshield": "Emerald Shield",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
+      "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_fr": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -385,7 +556,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_de": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -399,7 +584,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_br": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -413,7 +612,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_ru": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -427,7 +640,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_at": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -441,7 +668,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_be": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -455,7 +696,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_it": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -469,7 +724,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_ch": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -483,7 +752,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_li": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -497,7 +780,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "de_lu": {
       "item.emeraldsplus.emeraldsword": "Smaragd Schwert",
@@ -511,7 +808,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
       "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
       "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_be": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -525,7 +836,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_bf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -539,7 +864,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_bi": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -553,7 +892,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_bj": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -567,7 +920,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_lu": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -581,7 +948,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_cm": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -595,7 +976,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ga": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -609,7 +1004,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_td": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -623,7 +1032,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ch": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -637,7 +1060,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_km": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -651,7 +1088,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_pm": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -665,7 +1116,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_sc": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -679,7 +1144,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_cd": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -693,7 +1172,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mu": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -707,7 +1200,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ca": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -721,7 +1228,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_cg": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -735,7 +1256,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_vu": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -749,7 +1284,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mc": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -763,7 +1312,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_pf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -777,7 +1340,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_tg": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -791,7 +1368,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_sn": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -805,7 +1396,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_gp": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -819,7 +1424,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_cf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -833,7 +1452,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_rw": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -847,7 +1480,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mg": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -861,7 +1508,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ne": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -875,7 +1536,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ma": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -889,7 +1564,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mr": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -903,7 +1592,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_gn": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -917,7 +1620,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_sy": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -931,7 +1648,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -945,7 +1676,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_dz": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -959,7 +1704,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_nc": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -973,7 +1732,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_bl": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -987,7 +1760,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ml": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1001,7 +1788,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_tn": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1015,7 +1816,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_gf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1029,7 +1844,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ht": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1043,7 +1872,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_re": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1057,7 +1900,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_gq": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1071,7 +1928,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_ci": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1085,7 +1956,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_dj": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1099,7 +1984,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_yt": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1113,7 +2012,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_mq": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1127,7 +2040,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "fr_wf": {
       "item.emeraldsplus.emeraldsword": "Épée en émeraude",
@@ -1141,7 +2068,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Pioche en émeraude",
       "item.emeraldsplus.emerald_upgrade": "Amélioration en émeraude",
       "item.emeraldsplus.emeraldshield": "Bouclier d\u0027émeraude",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_ao": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1155,7 +2096,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_cv": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1169,7 +2124,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_lu": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1183,7 +2152,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_pt": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1197,7 +2180,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_mz": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1211,7 +2208,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_mo": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1225,7 +2236,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_st": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1239,7 +2264,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_ch": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1253,7 +2292,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_gw": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1267,7 +2320,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_tl": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1281,7 +2348,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "pt_gq": {
       "item.emeraldsplus.emeraldsword": "Espada de Esmeralda",
@@ -1295,7 +2376,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Picareta de Esmeralda",
       "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
       "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_md": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -1309,7 +2404,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_by": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -1323,7 +2432,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_kz": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -1337,7 +2460,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_ua": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -1351,7 +2488,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     },
     "ru_kg": {
       "item.emeraldsplus.emeraldsword": "Изумрудный меч",
@@ -1365,7 +2516,21 @@
       "item.emeraldsplus.emerald_pickaxe": "Изумрудная кирка",
       "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
       "item.emeraldsplus.emeraldshield": "Изумрудный щит",
-      "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus"
+      "item_group.emeraldsplus.emeralds_plus": "",
+      "enchantment.emeraldsplus.multi_break": "Multi Break",
+      "enchantment.emeraldsplus.golem_protection": "Golem Protection",
+      "enchantment.emeraldsplus.power_shield": "Power Shield",
+      "enchantment.emeraldsplus.village_protector": "Village Protector",
+      "enchantment.emeraldsplus.fast_farm": "Lucky Farm",
+      "enchantment.emeraldsplus.village_protection": "Village Protection",
+      "item.emeraldsplus.dummy": "Dummy",
+      "enchantment.emeraldsplus.luck": "Trade Luck",
+      "item.emeraldsplus.emerald_upgrade.description_0": "Smithing Template",
+      "item.emeraldsplus.emerald_upgrade.description_1": "",
+      "item.emeraldsplus.emerald_upgrade.description_2": "Applies to:",
+      "item.emeraldsplus.emerald_upgrade.description_3": "  Emerald Equipment",
+      "item.emeraldsplus.emerald_upgrade.description_4": "Ingredients:",
+      "item.emeraldsplus.emerald_upgrade.description_5": "  Emerald Block"
     }
   },
   "metadata": {
@@ -1404,7 +2569,7 @@
   "workspaceSettings": {
     "modid": "emeraldsplus",
     "modName": "Emeralds plus",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "This mod adds tons of new features for emeralds.",
     "author": "Mano Craft",
     "websiteURL": "https://mano-craft.github.io/Mano-Craft-Wiki/projects/emeralds-plus/",

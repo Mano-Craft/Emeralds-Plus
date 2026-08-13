@@ -1,0 +1,20 @@
+{
+  "_fv": 86,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Power Shield",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      "CUSTOM:Emeraldshield"
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

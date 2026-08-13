@@ -14,12 +14,10 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      "CUSTOM:EmeraldsPlus"
-    ],
+    "creativeTabs": [],
     "efficiency": 4.0,
     "attackSpeed": 1.5999999999999999,
-    "enchantability": 2,
+    "enchantability": 12,
     "damageVsEntity": 7.5,
     "usageCount": 1725,
     "glowCondition": {

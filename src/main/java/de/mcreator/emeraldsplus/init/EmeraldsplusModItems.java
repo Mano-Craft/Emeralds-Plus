@@ -1,6 +1,4 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
+
 package de.mcreator.emeraldsplus.init;
 
 import net.minecraft.world.item.Items;
@@ -26,6 +24,7 @@ public class EmeraldsplusModItems {
 	public static Item EMERALDARMOR_LEGGINGS;
 	public static Item EMERALDARMOR_BOOTS;
 	public static Item EMERALDSHIELD;
+	public static Item DUMMYITEM;
 
 	public static void load() {
 		EMERALD_PICKAXE = register("emerald_pickaxe", EmeraldsItem::new);
@@ -39,6 +38,7 @@ public class EmeraldsplusModItems {
 		EMERALDARMOR_LEGGINGS = register("emeraldarmor_leggings", EmeraldarmorItem.Leggings::new);
 		EMERALDARMOR_BOOTS = register("emeraldarmor_boots", EmeraldarmorItem.Boots::new);
 		EMERALDSHIELD = register("emeraldshield", EmeraldshieldItem::new);
+		DUMMYITEM = register("dummy", DummyItem::new);
 	}
 
 	// Start of user code block custom items

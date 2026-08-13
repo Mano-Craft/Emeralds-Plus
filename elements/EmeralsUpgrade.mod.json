@@ -12,7 +12,7 @@
     "name": "Emerald Upgrade",
     "rarity": "UNCOMMON",
     "creativeTabs": [
-      "CUSTOM:EmeraldsPlus"
+      "CUSTOM:EmeraldsPlusEnchantments"
     ],
     "stackSize": 64,
     "enchantability": 0,
@@ -30,7 +30,14 @@
     "damageVsEntity": 4.0,
     "attackSpeed": 1.2,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Smithing Template",
+        "",
+        "Applies to:",
+        "  Emerald Equipment",
+        "Ingredients:",
+        "  Emerald Block"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

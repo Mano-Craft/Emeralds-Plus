@@ -12,5 +12,17 @@
   "item.emeraldsplus.emeraldshield": "Emerald Shield",
   "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
   "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
-  "enchantment.emeraldsplus.golem_protection": "Golem Protection"
+  "enchantment.emeraldsplus.multi_break":"Multi Break",
+  "enchantment.emeraldsplus.golem_protection":"Golem Protection",
+  "enchantment.emeraldsplus.power_shield":"Feather Shield",
+  "enchantment.emeraldsplus.village_protector":"Village Protector",
+  "enchantment.emeraldsplus.fast_farm":"Fast Farm",
+  "enchantment.emeraldsplus.village_protection":"Village Protection",
+  "enchantment.emeraldsplus.luck":"Trade Luck",
+  "item.emeraldsplus.emerald_upgrade.description_0":"§7Smithing Template",
+  "item.emeraldsplus.emerald_upgrade.description_1":"",
+  "item.emeraldsplus.emerald_upgrade.description_2":"§7Applies to:",
+  "item.emeraldsplus.emerald_upgrade.description_3":" §aEmerald Equipment",
+  "item.emeraldsplus.emerald_upgrade.description_4":"§7Ingredients:",
+  "item.emeraldsplus.emerald_upgrade.description_5":" §aEmerald Block"
 }

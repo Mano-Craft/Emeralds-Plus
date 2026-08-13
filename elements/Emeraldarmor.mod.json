@@ -10,9 +10,7 @@
     "textureLeggings": "emeraldleggins",
     "enableBoots": true,
     "textureBoots": "emeraldboots",
-    "creativeTabs": [
-      "CUSTOM:EmeraldsPlus"
-    ],
+    "creativeTabs": [],
     "armorTextureFile": "emerald",
     "helmetName": "Emerald Helmet",
     "bodyName": "Emerald Chestplate",
@@ -92,7 +90,7 @@
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
     "enchantability": 9,
-    "toughness": 1.5,
+    "toughness": 2.5,
     "knockbackResistance": 0.1,
     "equipSound": "",
     "repairItems": [

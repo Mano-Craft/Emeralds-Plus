@@ -11,6 +11,13 @@
   "item.emeraldsplus.emerald_upgrade": "Улучшение из изумруда",
   "item.emeraldsplus.emeraldshield": "Изумрудный щит",
   "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
-  "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
-  "enchantment.emeraldsplus.golem_protection": "Golem Protection"
+  "item_group.emeraldsplus.emeralds_plus_enchantments": "Зачарования Emeralds Plus",
+"enchantment.emeraldsplus.multi_break": "Массовая добыча",
+"enchantment.emeraldsplus.golem_protection": "Защита голема",
+"enchantment.emeraldsplus.power_shield": "Щит из перьев",
+"enchantment.emeraldsplus.village_protector": "Защитник деревни",
+"enchantment.emeraldsplus.fast_farm": "Быстрое земледелие",
+"enchantment.emeraldsplus.village_protection": "Защита деревни",
+"enchantment.emeraldsplus.luck": "Удача в торговле"
+
 }

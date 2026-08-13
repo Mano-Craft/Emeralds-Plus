@@ -1,0 +1,28 @@
+{
+  "description": {
+    "translate": "enchantment.emeraldsplus.luck"
+  },
+  "supported_items": [
+    "emeraldsplus:emerald_pickaxe",
+    "emeraldsplus:emeraldaxe",
+    "emeraldsplus:emeraldarmor_helmet",
+    "emeraldsplus:emeraldarmor_chestplate",
+    "emeraldsplus:emeraldarmor_leggings",
+    "emeraldsplus:emeraldarmor_boots"
+  ],
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": "emeraldsplus:multi_break"
+}

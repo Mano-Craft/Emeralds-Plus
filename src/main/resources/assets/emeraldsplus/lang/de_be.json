@@ -10,7 +10,12 @@
   "item.emeraldsplus.emerald_pickaxe": "Smaragd Spitzhacke",
   "item.emeraldsplus.emerald_upgrade": "Smaragd Verbesserung",
   "item.emeraldsplus.emeraldshield": "Smaragd Schild",
-  "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
-  "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
-  "enchantment.emeraldsplus.golem_protection": "Golem Protection"
+  "item_group.emeraldsplus.emeralds_plus_enchantments": "Emeralds Plus Verzauberungen",
+  "enchantment.emeraldsplus.multi_break": "Mehrfachabbau",
+  "enchantment.emeraldsplus.golem_protection": "Golemschutz",
+  "enchantment.emeraldsplus.power_shield": "Feder-Schild",
+  "enchantment.emeraldsplus.village_protector": "Dorfschützer",
+  "enchantment.emeraldsplus.fast_farm": "Schnelle Landwirtschaft",
+  "enchantment.emeraldsplus.village_protection": "Dorfschutz",
+  "enchantment.emeraldsplus.luck": "Handelsglück"
 }

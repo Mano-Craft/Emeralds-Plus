@@ -11,6 +11,13 @@
   "item.emeraldsplus.emerald_upgrade": "Melhoria de Esmeralda",
   "item.emeraldsplus.emeraldshield": "Escudo de Esmeralda",
   "item_group.emeraldsplus.emeralds_plus": "Emeralds Plus",
-  "item_group.emeraldsplus.emeraldsplusentchants": "Emeralds Plus Enchantments",
-  "enchantment.emeraldsplus.golem_protection": "Golem Protection"
+  "item_group.emeraldsplus.emeralds_plus_enchantments": "Encantamentos Emeralds Plus",
+"enchantment.emeraldsplus.multi_break": "Quebra Múltipla",
+"enchantment.emeraldsplus.golem_protection": "Proteção de Golem",
+"enchantment.emeraldsplus.power_shield": "Escudo de Penas",
+"enchantment.emeraldsplus.village_protector": "Protetor da Vila",
+"enchantment.emeraldsplus.fast_farm": "Agricultura Rápida",
+"enchantment.emeraldsplus.village_protection": "Proteção da Vila",
+"enchantment.emeraldsplus.luck": "Sorte nas Trocas"
+
 }

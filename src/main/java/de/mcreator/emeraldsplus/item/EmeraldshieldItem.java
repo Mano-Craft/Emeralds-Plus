@@ -14,10 +14,15 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.Entity;
+import org.jspecify.annotations.Nullable;
 
 import java.util.Optional;
 import java.util.List;
 
+import de.mcreator.emeraldsplus.procedures.EmeraldshieldToolInHandTickProcedure;
 import de.mcreator.emeraldsplus.procedures.EmeraldshieldRightclickedProcedure;
 
 public class EmeraldshieldItem extends ShieldItem {
@@ -34,4 +39,11 @@ public class EmeraldshieldItem extends ShieldItem {
 		EmeraldshieldRightclickedProcedure.execute(entity);
 		return ar;
 	}
+	@Override
+	public void inventoryTick(ItemStack itemstack, ServerLevel world, Entity entity, @Nullable EquipmentSlot equipmentSlot) {
+		super.inventoryTick(itemstack, world, entity, equipmentSlot);
+		if (equipmentSlot == EquipmentSlot.MAINHAND || equipmentSlot == EquipmentSlot.OFFHAND)
+			EmeraldshieldToolInHandTickProcedure.execute(entity);
+	}
+
 }

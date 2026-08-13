@@ -6,11 +6,16 @@ The **Emeralds Plus Mod** introduces a complete set of **Emerald Armor**, **Emer
 
 Emerald equipment is balanced to be **stronger than Diamond** but **slightly weaker than Netherite**, making it the perfect mid-to-late-game gear.
 
-> ✨ Exclusive enchantments for Emerald equipment are planned for a future update!
+---
+
+##  🔧 Building the Mod on his own
+
+- If You want to build the mod and change it for yourselfes use.You have To download [The Source Code](https://github.com/Mano-Craft/Emeralds-plus) for the version you want to change.Then You have to open the project in mcreator.And it **Only works with Mcreator 2026.2 and the Fabric 26.1.2 Plugin**
+- If you only want to change the textures just download the [default texture pack](https://modrinth.com/resourcepack/emeraldsplusdefaulttexturepack) and change there textures.I recomment to use the same mod version as the texture pack
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - 💚 Emerald Armor Set
 - ⚔️ Emerald Tool Set
@@ -22,30 +27,23 @@ Emerald equipment is balanced to be **stronger than Diamond** but **slightly wea
 
 ## 🗺️ Languages
 
-| Version | English | Portuguese | Russian | Frensh | German |
+| Version | English | Portuguese | Russian | French | German |
 |------|-------------|------|------|-------------|------|
 | 0.9.1   |  ✅  | ✅ | ✅ | ✅ | ✅ |
 | 0.9.0   |  ✅  | ❌  | ❌ | ❌ | ❌ |
 
 ---
 
-#  🔧 Building the Mod on his own
-
-- If You want to build the mod and change it for yourselfes use.You have To download [The Source Code](https://github.com/Mano-Craft/Emeralds-plus) for the version you want to change.Then You have to open the project in mcreator.And it **Only works with Mcreator 2026.2 and the Fabric 26.1.2 Plugin**
-- If you only want to change the textures just download the [default texture pack](https://modrinth.com/resourcepack/emeraldsplusdefaulttexturepack) and change there textures.I recomment to use the same mod version as the texture pack
-
----
-
-# 🔨 Emerald Upgrade
+## 🔨 Emerald Upgrade
 
 The **Emerald Upgrade** allows you to upgrade **Diamond Tools** and **Diamond Armor** into their Emerald variants.
 
-### Requirements
+#### Requirements
 - Diamond Tool or Armor
 - 1 Emerald Block
 - 1 Emerald Upgrade
 
-### How to obtain
+#### How to obtain
 
 - 📦 Found in **Weaponsmith** village chests
 - 🎲 **65% chance** to generate
@@ -63,11 +61,11 @@ You can also duplicate the Emerald Upgrade:
 
 ---
 
-# ⚔️ Emerald Sword
+## ⚔️ Emerald Sword
 
 A stronger alternative to the Diamond Sword while remaining slightly weaker than Netherite.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
 - 🎲 **3% chance** to generate
 
@@ -80,11 +78,11 @@ A stronger alternative to the Diamond Sword while remaining slightly weaker than
 
 ---
 
-# 🪓 Emerald Axe
+## 🪓 Emerald Axe
 
 A powerful axe balanced between Diamond and Netherite.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
 - 🎲 **3% chance** to generate
 
@@ -97,13 +95,13 @@ A powerful axe balanced between Diamond and Netherite.
 
 ---
 
-# ⛏️ Emerald Pickaxe
+## ⛏️ Emerald Pickaxe
 
 Mine faster with an upgraded pickaxe stronger than Diamond.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
-- 🎲 **3% chance** to generate 
+- 🎲 **3% chance** to generate
 
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
@@ -114,11 +112,11 @@ Mine faster with an upgraded pickaxe stronger than Diamond.
 
 ---
 
-# 🛠 Emerald Shovel
+## 🛠 Emerald Shovel
 
 The Emerald Shovel offers improved durability and mining speed.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
 - 🎲 **2% chance** to generate
 
@@ -131,13 +129,13 @@ The Emerald Shovel offers improved durability and mining speed.
 
 ---
 
-# 🌾 Emerald Hoe
+## 🌾 Emerald Hoe
 
 A durable farming tool made from emeralds.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
-- 🎲 **2% chance** to generate 
+- 🎲 **2% chance** to generate
 
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
@@ -148,11 +146,11 @@ A durable farming tool made from emeralds.
 
 ---
 
-# 🪖 Emerald Armor
+## 🪖 Emerald Armor
 
 The complete Emerald Armor set provides protection between Diamond and Netherite.
 
-### Obtain
+#### Obtain
 - 🏘️ Found in Weaponsmith village chests
 - 🎲 **1% chance** to generate for the boots
 - 🎲 **2% chance** to generate for the rest of the armor
@@ -160,19 +158,19 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 <details>
 <summary><b>📖 Crafting Recipes</b></summary>
 
-### Helmet
+#### Helmet
 
 ![Emerald Helmet Crafting](https://cdn.modrinth.com/data/cached_images/030f16155948131e3d1a1886c170db3960bbdc94.png)
 
-### Chestplate
+#### Chestplate
 
 ![Emerald Chestplate Crafting](https://cdn.modrinth.com/data/cached_images/8d8ae5377ddecc5883f6ecf3d93e7eb0d33776b0.png)
 
-### Leggings
+#### Leggings
 
 ![Emerald Leggings Crafting](https://cdn.modrinth.com/data/cached_images/101f6aba3b2765a6eec103009060c075c96784b7.png)
 
-### Boots
+#### Boots
 
 ![Emerald Boots Crafting](https://cdn.modrinth.com/data/cached_images/9ca8d45393eec995b699b84324804a721a5b4cb3.png)
 
@@ -180,7 +178,7 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 ---
 
-# 🛡️ Emerald Shield
+## 🛡️ Emerald Shield
 
 A stronger alternative to the normal shield.
 If you shield one tick before you land on the ground you will take no fall damage.
@@ -194,27 +192,116 @@ If you shield one tick before you land on the ground you will take no fall damag
 
 ---
 
+## 💰 Trade Luck
+
+If you mine a Workingstation which is connected with a Villager with a tool enchanted with **Trade Luck** 1 , 2 or 3.Replace the workingstation and wait till a Villager gets the job.Then open the Villagers Trade GUI.There is a 5 % Chance per enchanted armor piece of getting **Hero of the Village** .The effect level is determined by the enchantment level used to mine the workstation.The effect time us determined by the Armor Level ( Every Piece can have its own level and the time of the 4 Pieces is added before you get the effect )
+
+#### Only works if
+
+- Enchanted on:
+  - The tool your mining the workingstation
+  - At least on one Armor Piece
+
+#### Compatibility 
+
+- Full Emerald Armor
+- Emerald Axe
+- Emerald Pickaxe
+
+---
+
+## 🪚 Multi Break
+
+If you have Multibreak Enchanted on a tool it lets you mine multiple blocks around the block you mine . The Enchantment goes up to level 5 and a max of a 3 by 3 by 2 mining-area
+
+#### Compatibility 
+
+- Emerald Pickaxe
+- Emerald Hoe
+- Emerald Axe
+- Emerald Shovel
+
+---
+
+## 🪂 Feather Shield
+
+No matter when you shield, you won't take any fall damage.You just have to shield when you touch the ground.
+
+#### Compatibility 
+
+- Emerald Shield
+
+---
+
+## ⚔️ Village Protector
+
+Make more damage to village enemies.And no damage to villagers
+
+#### Compatibility 
+
+- Emerald Axe
+- Emerald Sword
+
+---
+
+## 🛡 Village Protection
+
+Village enemies does less damage if enchanted
+
+#### Compatibility 
+
+- Full Emerald Armor
+
+---
+
+## 🌾 Fast Farm
+
+If you mine a fully grown crop it automaticly replants and there is a 20% to 35% Chance for a bone to drop
+
+#### Only works if
+
+- The crop is fully grown
+
+#### Compatibility 
+
+- Emerald Hoe
+
+---
+
+## 🧱 Golem Protection
+An iron golem does 20% less damage per enchanted armor piece so if you have your full armor enchanted with Golem Protection you are 80% protected of the Irom Golems damage.
+
+#### Compatibility 
+
+- Copper Armor
+- Iron Armor
+- Diamond Armor
+- Emerald Armor
+- Netherite Armor
+
+---
+
 # 🚀 Changelog and Roadmap
 
-
-| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 |
-|-----------------|-|-|-|-|-|-|
-| Emerald Upgrade |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Armor |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Sword |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Axe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Pickaxe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shovel |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Hoe |  ✅  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Frensh Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Exclusive Emerald Entchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Emerald Spear | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 | 2.2.0 |
+|-----------------|-|-|-|-|-|-|-|
+| Emerald Upgrade | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Armor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Sword | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Axe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Pickaxe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shovel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Hoe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| French Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 7 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| 3 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Emerald Spear | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 
