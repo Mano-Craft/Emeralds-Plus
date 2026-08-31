@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "minecraft:shield"
+  },
+  "result": {
+    "id": "emeraldsplus:emeraldshield",
+    "count": 1
+  }
+}

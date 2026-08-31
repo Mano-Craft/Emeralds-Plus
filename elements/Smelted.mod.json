@@ -1,0 +1,25 @@
+{
+  "_fv": 86,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Smelted",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 2,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      "SILK_TOUCH"
+    ],
+    "supportedItems": [
+      "CUSTOM:Emeralds",
+      "CUSTOM:Emeraldaxe",
+      "Items.ENCHANTED_BOOK",
+      "Items.BOOK"
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

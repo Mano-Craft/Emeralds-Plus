@@ -1,0 +1,21 @@
+{
+  "_fv": 86,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Village Protector",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      "CUSTOM:Emeraldsword",
+      "CUSTOM:Emeraldaxe"
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

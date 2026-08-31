@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "emeraldsplus:emerald_upgrade",
+    "c": "minecraft:dirt"
+  },
+  "result": {
+    "id": "emeraldsplus:emerald_upgrade",
+    "count": 2
+  }
+}

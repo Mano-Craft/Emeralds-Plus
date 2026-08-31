@@ -1,0 +1,59 @@
+{
+  "description": {
+    "translate": "enchantment.emeraldsplus.golem_protection"
+  },
+  "supported_items": [
+    "emeraldsplus:emeraldarmor_helmet",
+    "emeraldsplus:emeraldarmor_chestplate",
+    "emeraldsplus:emeraldarmor_leggings",
+    "emeraldsplus:emeraldarmor_boots",
+    "minecraft:copper_helmet",
+    "minecraft:copper_chestplate",
+    "minecraft:copper_leggings",
+    "minecraft:copper_boots",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:diamond_helmet",
+    "minecraft:diamond_chestplate",
+    "minecraft:diamond_leggings",
+    "minecraft:diamond_boots",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots"
+  ],
+  "weight": 10,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 5.0
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "minecraft:iron_golem"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": {
+    "translate": "enchantment.emeraldsplus.smelted"
+  },
+  "supported_items": [
+    "emeraldsplus:emerald_pickaxe",
+    "emeraldsplus:emeraldaxe",
+    "minecraft:enchanted_book",
+    "minecraft:book"
+  ],
+  "weight": 2,
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": "silk_touch"
+}

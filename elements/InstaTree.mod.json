@@ -1,0 +1,22 @@
+{
+  "_fv": 86,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Insta Tree",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      "CUSTOM:MultiBreak"
+    ],
+    "supportedItems": [
+      "CUSTOM:Emeraldaxe"
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

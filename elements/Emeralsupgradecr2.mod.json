@@ -1,0 +1,29 @@
+{
+  "_fv": 86,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "CUSTOM:EmeralsUpgrade",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Blocks.DIRT#0",
+      "Items.DIAMOND"
+    ],
+    "recipeReturnStack": "CUSTOM:EmeralsUpgrade",
+    "name": "emeralsupgradecr_2",
+    "namespace": "mod"
+  }
+}

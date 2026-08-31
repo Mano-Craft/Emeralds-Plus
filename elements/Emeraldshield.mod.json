@@ -1,0 +1,37 @@
+{
+  "_fv": 86,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "emerald_shield",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "emerald_shield",
+    "name": "Emerald Shield",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:EmeraldsPlus"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 150,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": "EmeraldshieldRightclicked"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": {
+    "translate": "enchantment.emeraldsplus.multi_break"
+  },
+  "supported_items": [
+    "emeraldsplus:emerald_pickaxe",
+    "emeraldsplus:emeraldaxe",
+    "emeraldsplus:emeraldshovel",
+    "emeraldsplus:emeraldhoe"
+  ],
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": "efficiency"
+}

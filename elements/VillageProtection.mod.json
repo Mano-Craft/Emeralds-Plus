@@ -1,0 +1,24 @@
+{
+  "_fv": 86,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Village Protection",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      "CUSTOM:Emeraldarmor.helmet",
+      "CUSTOM:Emeraldarmor.body",
+      "CUSTOM:Emeraldarmor.legs",
+      "CUSTOM:Emeraldarmor.boots",
+      "CUSTOM:Emeraldshield"
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "emeraldsplus:emerald_upgrade",
+  "base": "minecraft:diamond_shovel",
+  "addition": "minecraft:emerald_block",
+  "result": {
+    "id": "emeraldsplus:emeraldshovel"
+  }
+}
