@@ -17,7 +17,7 @@ import de.mcreator.emeraldsplus.procedures.MultiBreakProcedure;
 import de.mcreator.emeraldsplus.procedures.FastFarmProcedure;
 
 public class EmeraldhoeItem extends HoeItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 12, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emeraldhoe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emeraldhoe_repair_items")));
 
 	public EmeraldhoeItem(Item.Properties properties) {
 		super(TOOL_MATERIAL, 0f, 0f, properties);

@@ -94,7 +94,7 @@
     "knockbackResistance": 0.1,
     "equipSound": "",
     "repairItems": [
-      "Items.EMERALD"
+      "Blocks.EMERALD_BLOCK"
     ],
     "rarity": "UNCOMMON"
   }

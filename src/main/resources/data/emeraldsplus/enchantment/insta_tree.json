@@ -17,5 +17,10 @@
   "slots": [
     "any"
   ],
-  "exclusive_set": "emeraldsplus:multi_break"
+  "exclusive_set": [
+  	"emeraldsplus:multi_break",
+  	"minecraft:mending",
+  	"minecraft:unbreaking",
+  	"minecraft:efficiency"
+  	]
 }

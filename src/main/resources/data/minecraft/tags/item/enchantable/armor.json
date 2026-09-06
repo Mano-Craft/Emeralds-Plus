@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "emeraldsplus:emeraldarmor_helmet",
+    "emeraldsplus:emeraldarmor_chestplate",
+    "emeraldsplus:emeraldarmor_leggings",
+    "emeraldsplus:emeraldarmor_boots"
+  ]
+}

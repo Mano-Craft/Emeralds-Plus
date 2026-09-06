@@ -233,7 +233,7 @@ Mines all of the same ores nearby the ore you breaked
 
 ---
 
-## 🛡 Village Protection
+## 🛡️ Village Protection
 
 Village enemies does less damage if enchanted
 
@@ -281,7 +281,7 @@ Gives you everything you break as smelted version
 
 ## 🪵 Insta Tree
 
-The hole tree breaks if you mine 1 , 2 or 3 blocks (The blocks you have to mine are determined by the enchantment level) of the wood which are connected
+The hole tree breaks if you mine 1 , 2 or 3 blocks (The blocks you have to mine are determined by the enchantment level) of the wood which are connected.You lose 4 durability per log the enchantment breaks.
 
 #### Compatibility 
 
@@ -314,25 +314,26 @@ An iron golem does 20% less damage per enchanted armor piece so if you have your
 
 # 🚀 Changelog and Roadmap
 
-| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 | 3.0.0 |
-|-----------------|-|-|-|-|-|-|-|
-| Emerald Upgrade | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Armor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Sword | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Axe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Pickaxe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shovel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Hoe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| French Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| 7 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-| 3 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Big Bugfix | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 | 3.0.0 | 3.1.0 |
+|-----------------|-|-|-|-|-|-|-|-|
+| Emerald Upgrade | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Armor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Sword | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Axe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Pickaxe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shovel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Hoe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| French Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 7 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 3 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Big Bugfix | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Texture Update | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 

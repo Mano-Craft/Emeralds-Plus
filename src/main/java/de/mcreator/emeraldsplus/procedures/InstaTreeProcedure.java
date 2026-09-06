@@ -175,6 +175,8 @@ public class InstaTreeProcedure {
 				destroyedLogCount++;
 		}
 
+		destroyedLogCount *= 4;
+
 		if (destroyedLogCount > 0) {
 			itemstack.hurtAndBreak(destroyedLogCount, entity, entity.getEquipmentSlotForItem(itemstack));
 		}

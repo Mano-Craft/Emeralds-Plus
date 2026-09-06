@@ -17,14 +17,14 @@
     "creativeTabs": [],
     "efficiency": 4.0,
     "attackSpeed": 1.5999999999999999,
-    "enchantability": 12,
+    "enchantability": 15,
     "damageVsEntity": 7.5,
     "usageCount": 1725,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
-      "Items.EMERALD"
+      "Blocks.EMERALD_BLOCK"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

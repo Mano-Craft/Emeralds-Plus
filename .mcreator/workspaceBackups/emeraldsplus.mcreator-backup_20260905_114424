@@ -439,7 +439,7 @@
       "name": "Smelted",
       "type": "enchantment",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "smelted",
       "metadata": {
         "files": [
@@ -451,7 +451,7 @@
       "name": "VeinMiner",
       "type": "enchantment",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "vein_miner",
       "metadata": {
         "files": [
@@ -463,7 +463,7 @@
       "name": "InstaTree",
       "type": "enchantment",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "insta_tree",
       "metadata": {
         "files": [
@@ -539,9 +539,6 @@
     "ITEMS:minecraft:shovels": [
       "~Emeraldshovel@CUSTOM:Emeraldshovel"
     ],
-    "ITEMS:minecraft:swords": [
-      "~Emeraldsword@CUSTOM:Emeraldsword"
-    ],
     "ENCHANTMENTS:minecraft:non_treasure": [
       "~Smelted@CUSTOM:Smelted",
       "~InstaTree@CUSTOM:InstaTree",
@@ -558,6 +555,9 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~Emeraldarmor@CUSTOM:Emeraldarmor.boots"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Emeraldsword@CUSTOM:Emeraldsword"
     ]
   },
   "tab_element_order": {},
@@ -2832,7 +2832,7 @@
   "workspaceSettings": {
     "modid": "emeraldsplus",
     "modName": "Emeralds plus",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "description": "This mod adds tons of new features for emeralds.",
     "author": "Mano Craft",
     "websiteURL": "https://mano-craft.github.io/Mano-Craft-Wiki/projects/emeralds-plus/",

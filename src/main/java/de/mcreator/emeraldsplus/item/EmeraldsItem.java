@@ -18,7 +18,7 @@ import de.mcreator.emeraldsplus.procedures.VeinMinerProcedure;
 import de.mcreator.emeraldsplus.procedures.SmeltedProcedure;
 
 public class EmeraldsItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 12, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emerald_pickaxe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emerald_pickaxe_repair_items")));
 
 	public EmeraldsItem(Item.Properties properties) {
 		super(properties.pickaxe(TOOL_MATERIAL, 4.5f, -3f));

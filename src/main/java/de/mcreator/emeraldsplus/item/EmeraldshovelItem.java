@@ -17,7 +17,7 @@ import de.mcreator.emeraldsplus.procedures.MultiBreakProcedure;
 
 
 public class EmeraldshovelItem extends ShovelItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 12, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emeraldshovel_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1725, 8.5f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("emeraldsplus:emeraldshovel_repair_items")));
 
 	public EmeraldshovelItem(Item.Properties properties) {
 		super(TOOL_MATERIAL, 5f, -3f, properties);
