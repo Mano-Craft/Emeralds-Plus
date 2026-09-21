@@ -53,9 +53,9 @@ You can also duplicate the Emerald Upgrade:
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Upgrade Crafting](https://cdn.modrinth.com/data/cached_images/bacf91da6fda64b30fc0cbb042602cda32169a2e.png)
+![Emerald Upgrade Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_upgrade_cr.png)
 
-![Emerald Upgrade Crafting 2](https://cdn.modrinth.com/data/cached_images/d497761f2b7e4374a9f48bf530f99af507a4c9f4.png)
+![Emerald Upgrade Crafting 2](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_upgrade_cr2.png)
 
 </details>
 
@@ -72,7 +72,7 @@ A stronger alternative to the Diamond Sword while remaining slightly weaker than
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Sword Crafting](https://cdn.modrinth.com/data/cached_images/e5195e6bf78096101476463b038c242afeec73ba.png)
+![Emerald Sword Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_sword_cr.png)
 
 </details>
 
@@ -89,7 +89,7 @@ A powerful axe balanced between Diamond and Netherite.
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Axe Crafting](https://cdn.modrinth.com/data/cached_images/1fa006337e2199f537648be1be878476d15e37a2.png)
+![Emerald Axe Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_axe_cr.png)
 
 </details>
 
@@ -106,7 +106,7 @@ Mine faster with an upgraded pickaxe stronger than Diamond.
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Pickaxe Crafting](https://cdn.modrinth.com/data/cached_images/cca38e87d57787c799bf8140b8086929a23ad0c2.png)
+![Emerald Pickaxe Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_pickaxe_cr.png)
 
 </details>
 
@@ -123,7 +123,7 @@ The Emerald Shovel offers improved durability and mining speed.
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Shovel Crafting](https://cdn.modrinth.com/data/cached_images/a4279e83dc2fa8163caeda97f42297893420824d.png)
+![Emerald Shovel Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_shovel_cr.png)
 
 </details>
 
@@ -135,12 +135,12 @@ A durable farming tool made from emeralds.
 
 #### Obtain
 - 🏘️ Found in Weaponsmith village chests
-- 🎲 **2% chance** to generate
+- 🎲 **2% chance** to generate 
 
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Hoe Crafting](https://cdn.modrinth.com/data/cached_images/8fc1d76e0efff0f40c176b18b2140f05c3825b52.png)
+![Emerald Hoe Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_hoe_cr.png)
 
 </details>
 
@@ -160,19 +160,19 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 #### Helmet
 
-![Emerald Helmet Crafting](https://cdn.modrinth.com/data/cached_images/030f16155948131e3d1a1886c170db3960bbdc94.png)
+![Emerald Helmet Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_helmet_cr.png)
 
-#### Chestplate
+### Chestplate
 
-![Emerald Chestplate Crafting](https://cdn.modrinth.com/data/cached_images/8d8ae5377ddecc5883f6ecf3d93e7eb0d33776b0.png)
+![Emerald Chestplate Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_chestplate_cr.png)
 
 #### Leggings
 
-![Emerald Leggings Crafting](https://cdn.modrinth.com/data/cached_images/101f6aba3b2765a6eec103009060c075c96784b7.png)
+![Emerald Leggings Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_leggings_cr.png)
 
 #### Boots
 
-![Emerald Boots Crafting](https://cdn.modrinth.com/data/cached_images/9ca8d45393eec995b699b84324804a721a5b4cb3.png)
+![Emerald Boots Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_boots_cr.png)
 
 </details>
 
@@ -186,7 +186,7 @@ If you shield one tick before you land on the ground you will take no fall damag
 <details>
 <summary><b>📖 Crafting Recipe</b></summary>
 
-![Emerald Shield Crafting](https://github.com/user-attachments/assets/9f3224eb-2403-41e6-89a4-9e2423e938be)
+![Emerald Shield Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_shield_cr.png)
 
 </details>
 
@@ -314,26 +314,28 @@ An iron golem does 20% less damage per enchanted armor piece so if you have your
 
 # 🚀 Changelog and Roadmap
 
-| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 | 3.0.0 | 3.1.0 |
-|-----------------|-|-|-|-|-|-|-|-|
-| Emerald Upgrade | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Armor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Sword | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Axe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Pickaxe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shovel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Hoe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| French Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 7 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| 3 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Big Bugfix | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Texture Update | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Features | 0.9.0 | 0.9.1 | 0.9.2 | 1.0.0 | 2.0.0 | 2.1.0 | 3.0.0 | 3.1.0 | 3.2.0 |
+|-----------------|-|-|-|-|-|-|-|-|-|
+| Emerald Upgrade | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Armor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Sword | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Axe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Pickaxe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shovel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Hoe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| English Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| German Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| French Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Russian Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Portuguese Support | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Better Creative Tab | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emerald Shield | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 7 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 3 New Exclusive Emerald Enchantments | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Big Bugfix | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Texture Update | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Bugfixes for Insta Tree | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Add Tooltip for Items | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "emeraldsplus:item/emearls_axe"
+    "layer0": "emeraldsplus:item/emerald_axe"
   }
 }
