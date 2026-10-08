@@ -162,7 +162,7 @@ The complete Emerald Armor set provides protection between Diamond and Netherite
 
 ![Emerald Helmet Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_helmet_cr.png)
 
-### Chestplate
+#### Chestplate
 
 ![Emerald Chestplate Crafting](https://mano-craft.github.io/Mano-Craft-Wiki/images/emerald_chestplate_cr.png)
 
